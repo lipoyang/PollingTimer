@@ -23,6 +23,7 @@ void loop()
         Serial.print("interval1: ");
         Serial.println(cnt);
     }
+    delay(100);
     if(interval2.elapsed()){
         static int cnt = 0;
         cnt++;
